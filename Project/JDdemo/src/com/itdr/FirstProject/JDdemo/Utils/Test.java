@@ -23,8 +23,8 @@ public class Test {
             String name = sc.next();
             int price = sc.nextInt();
             String infor = sc.next();
-            Product p=  Product.getNew(id,name,price,infor);
-            pro[i]=p;
+          //  Product p=  Product.getNew(id,name,price,infor);
+          //  pro[i]=p;
         }
         //程序的主入口
         while (true) {

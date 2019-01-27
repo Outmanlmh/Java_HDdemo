@@ -1,31 +1,34 @@
 package com.itdr.FirstProject.JDdemo.service.user_mo.Login;
 
+
+import com.itdr.FirstProject.JDdemo.datebase.CommonData;
+import com.itdr.FirstProject.JDdemo.domain.User;
+
+
 import java.util.Scanner;
 
 public class Login {
-    public String Lname;
-    public String Lpwd ;
+    public static User[] user;
+
+    static {
+        //提供用户的数组
+        user = CommonData.getUser();
+        User u = new User();
+    }
 
     //用户登录
-    public static void login(String lname,String lpwd) {
+    public static void login() {
         while (true) {
-            Login login = new Login();
-            login.Lname = lname;
-            login.Lpwd  =lpwd;
-//        Regist regist = new Regist();
-//        String lname = regist.getUname();
-//        String lpwd = regist.getUpassword();
+            //键盘录入功能
             Scanner sc = new Scanner(System.in);
-            System.out.println("请输入用户名");
-            String name = sc.next();
+            //获取用户名和密码
+            System.out.println("请输入账户");
+            String uname = sc.next();
             System.out.println("请输入密码");
-            String pwd = sc.next();
-            if (name.equals(login.Lname) && pwd.equals(login.Lpwd)) {
-                System.out.println("登录成功，欢迎" + login.Lname);break;
-            } else {
-                System.out.println("登陆失败，请重新输入");
-            }
-
+            String upwd = sc.next();
+            //到数据库中看是否有这个对象
+            CommonData.login(uname,upwd);
+            return;
         }
 
     }

@@ -1,6 +1,5 @@
 package com.itdr.FirstProject.JDdemo.domain;
 
-import com.itdr.FirstProject.JDdemo.domain.User;
     //购物车数据库
 public class ShopCar {
     //序号
@@ -13,6 +12,14 @@ public class ShopCar {
     private  int pnum;
     //总价格
     private double sum;
+
+    public ShopCar(int id,String uname,int pid,int pnum,double sum){
+        this.id=id;
+        this.uname=uname;
+        this.pid=pid;
+        this.pnum=pnum;
+        this.sum=sum;
+    }
 
     public int getId() {
         return id;

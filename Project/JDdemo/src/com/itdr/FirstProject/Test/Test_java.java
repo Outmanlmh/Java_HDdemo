@@ -348,9 +348,5 @@ public class Test_java {
         }
         System.out.println(max);
         System.out.println(min);
-        StringBuffer a = null;
-
-        System.out.println(a);
-
     }
 }

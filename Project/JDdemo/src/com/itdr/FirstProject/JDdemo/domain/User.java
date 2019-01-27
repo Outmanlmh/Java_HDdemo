@@ -4,8 +4,6 @@ public class User {
     private String name;
     private String pwd;
 
-    //用户的购物车
-
     public String getName() {
         return name;
     }
@@ -21,4 +19,6 @@ public class User {
     public void setPwd(String pwd) {
         this.pwd = pwd;
     }
+
+
 }

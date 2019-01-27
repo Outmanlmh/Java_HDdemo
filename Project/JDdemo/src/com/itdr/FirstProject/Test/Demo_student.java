@@ -18,8 +18,6 @@ public class Demo_student {
     public Demo_student (){
 
     }
-
-
     public void show() {
         System.out.println("Demo_student{" +
                 "name='" + name + '\'' +

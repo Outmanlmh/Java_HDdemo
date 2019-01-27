@@ -5,14 +5,52 @@ public class Product {
     public  String name;
     public int price;
     public  String infor;
+    public Product(){}
+    public Product(int id,String name,int price,String infor){
+        this.id=id;
+        this.name=name;
+        this.price=price;
+        this.infor= infor;
+    }
+    public int getId() {
+        return id;
+    }
 
-    //创建对象的方法
-    public static  Product getNew(int id, String name,int price,String infor){
-        Product p = new Product();
-        p.id=id;
-        p.name=name;
-        p.price= price;
-        p.infor= infor;
-        return p;
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public String getInfor() {
+        return infor;
+    }
+
+    public void setInfor(String infor) {
+        this.infor = infor;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", infor='" + infor + '\'' +
+                '}';
     }
 }
