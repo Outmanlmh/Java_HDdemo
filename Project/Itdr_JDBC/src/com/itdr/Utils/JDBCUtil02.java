@@ -10,20 +10,20 @@ import java.util.Properties;
  * @date2019.02.18 15:21.
  */
 public class JDBCUtil02 {
+    //创建私有静态变量接收参数，
    private static String driverClass = null;
-   private static String url = "jdbc:mysql://localhost:3306/dbrlg";
-   private static String user = "root";
-   private static String password = "root";
-
+   private static String url ;
+   private static String user ;
+   private static String password ;
+   private static Connection conn;
    //静态代码块，类加载的时候加载
     static {
-       //创建一个属性配置对象
+       //创建一个属性配置对象properties
        Properties properties = new Properties();
        //通过获取到项目文件的输入字节流，完成文件加载
        InputStream resourceAsStream = JDBCUtil02.class.getClassLoader().getResourceAsStream("jdbc.properties");
 
        try {
-
             //加载文件到properties对象
             properties.load(resourceAsStream);
             //调用properties对象的方法，通过键获取到对应的值
@@ -45,8 +45,6 @@ public class JDBCUtil02 {
    }
 
     public static Connection getconn() {
-        Connection conn = null;
-
         try {
             Class.forName(driverClass);
 
@@ -59,6 +57,8 @@ public class JDBCUtil02 {
 
         return conn;
     }
+
+
 
     public static void clossAll(Connection conn, PreparedStatement ps, ResultSet rs) {
 

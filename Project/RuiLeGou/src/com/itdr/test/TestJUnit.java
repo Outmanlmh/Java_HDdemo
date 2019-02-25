@@ -26,7 +26,7 @@ public class TestJUnit {
     public  void test2(){
 
         UserController us = new UserController();
-            String uss="tom";
+            String uss="xiaoming";
             User u =us.show(uss);
         if (u!=null){
             System.out.println("登陆成功");

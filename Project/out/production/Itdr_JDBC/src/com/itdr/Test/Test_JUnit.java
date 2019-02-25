@@ -61,7 +61,7 @@ public class Test_JUnit {
     @Test
     public void test2() throws Exception {
        Connection conn = JDBCUtil01.getCon();
-       String sql = "insert into teacher values(1,'xiaoming')";
+       String sql = "insert into user values(null ,'xiaohang','777')";
        PreparedStatement ps = conn.prepareStatement(sql);
         int i = ps.executeUpdate();
         System.out.println("影响了"+i+"行");

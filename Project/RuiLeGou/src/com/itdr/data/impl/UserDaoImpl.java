@@ -56,12 +56,14 @@ public class UserDaoImpl implements UserData {
             rs = ps.executeQuery();
             while (rs.next()) {
                 u = new User();
-                u.setUname(rs.getString("username"));
+                u.setUname(rs.getString("uname"));
                 u.setUpassword(rs.getString("password"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return u;
+
+
     }
 }

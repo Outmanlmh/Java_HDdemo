@@ -8,40 +8,11 @@ import java.sql.*;
  */
 public class JDBCUtil01 {
 
-    public static void main(String[] args) {
 
-
-        Connection connection = null;
-        Statement statement = null;
-        ResultSet resultSet = null;
-        try {
-
-
-            //建立对象
-            statement = connection.createStatement();
-            //执行sql语句
-            String sql = "select * from user";
-            //处理结果
-            resultSet = statement.executeQuery(sql);
-            //释放资源（关闭连接）
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                resultSet.close();
-                statement.close();
-                connection.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-
-        }
-    }
 
     public static Connection getCon() {
         Connection connection = null;
-        String url = "jdbc:mysql://localhost:3306/dbrlg";
+        String url = "jdbc:mysql://localhost:3306/rlgdb";
         String user = "root";
         String password = "root";
         try {

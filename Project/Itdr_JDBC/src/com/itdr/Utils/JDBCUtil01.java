@@ -8,93 +8,62 @@ import java.sql.*;
  */
 public class JDBCUtil01 {
 
-    public static void main(String[] args) {
 
 
-        Connection connection = null;
-        Statement statement = null;
-        ResultSet resultSet = null;
+
+
+    public static Connection getcon() throws ClassNotFoundException {
+        Connection con = null;
+        String url = "jdbc:mysql://localhost:3306/rlgdb";
+        String user = "root";
+        String password = "root";
+        //注册驱动
+        Class.forName("com.mysql.jdbc.Driver");
+
         try {
+            //创建连接
+            con = DriverManager.getConnection(url, user, password);
 
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return con;
+    }
 
-            //建立对象
-            statement = connection.createStatement();
-            //执行sql语句
-            String sql = "select * from user";
-            //处理结果
-            resultSet = statement.executeQuery(sql);
-            //释放资源（关闭连接）
-
+    public static void closeAll(Connection con, PreparedStatement ps, ResultSet rs) {
+        try {
+            if (rs != null)
+                rs.close();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
             try {
-                resultSet.close();
-                statement.close();
-                connection.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-
-        }
-    }
-
-    public static Connection getCon() {
-        Connection connection = null;
-        String url = "jdbc:mysql://localhost:3306/dbrlg";
-        String user = "root";
-        String password = "root";
-        try {
-            //注册驱动
-            Class.forName("com.mysql.jdbc.Driver");
-            //建立连接
-            connection= DriverManager.getConnection(url, user, password);
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return connection;
-    }
-
-    public static void closeALL(Connection conn, PreparedStatement ps, ResultSet rs) {
-        if (rs != null) {
-            try {
-                rs.close();
+                if (ps != null)
+                    ps.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             } finally {
-                if (ps != null) {
-                    try {
-                        ps.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                    } finally {
-                        if (conn != null) {
-                            try {
-                                conn.close();
-                            } catch (SQLException e) {
-                                e.printStackTrace();
-                            }
-                        }
-                    }
+                try {
+                    if (con != null)
+                        con.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
                 }
             }
         }
     }
 
-    public static void closeALL(Connection conn, PreparedStatement ps) {
+    public static void closeAll(Connection con, PreparedStatement ps) {
+
         try {
-            if (ps != null) {
+            if (ps != null)
                 ps.close();
-            }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
             try {
-                if (conn != null) {
-                    conn.close();
-                }
+                if (con != null)
+                    con.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
