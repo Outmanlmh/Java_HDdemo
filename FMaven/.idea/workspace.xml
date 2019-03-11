@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FMaven:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd687965-a2cf-451b-ba76-75605a680dae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/UserDaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/service/IUserServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/utils/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/utils/JDBCUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/utils/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/utils/ResultData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/utils/RowMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/utils/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/AddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/CookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/DeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/DoAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/DoLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/DoUpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/EncodeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/GetCookiesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/UpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/UploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/UserWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/addservlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/web/doaddservlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/load.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSProject/src/JSTest/firstpro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSProject/src/JSTest/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/main/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/main/dao/UserDaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/main/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/main/service/IUserServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/main/webapp/WEB-INF/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/main/webapp/WEB-INF/lists.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/utils/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/utils/JDBCUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/utils/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/utils/ResultData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/utils/RowMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/utils/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/web/AddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenTest/src/web/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/.idea/artifacts/RuiLeGou_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/Itdr_JDBC/src/com/itdr/Test/Test_pool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/Itdr_JDBC/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_IO/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_IO/test_fuxi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_xiancheng/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_xiancheng/ThreadTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/Test_erfen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/fanshe/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/fanshe/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/fanshe/tests/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/fanshe/tests/UserInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/fanshe/tests/UserInitImp_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/fanshe/tests/UserInitImp_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/fanshe/user.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/RuiLeGou/web/Userlogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/RuiLeGou/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/src/com/itdr/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/src/com/itdr/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/src/com/itdr/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/src/com/itdr/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/src/com/neuedu/dao/RowMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/src/com/neuedu/dao/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/src/com/neuedu/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/src/com/neuedu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/web/Userlogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/web/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/web/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/Itdr_JDBC/resource/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/Itdr_JDBC/resource/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/Itdr_JDBC/src/com/itdr/JDBCTest/DataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/Itdr_JDBC/src/com/itdr/JDBCTest/DataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/Itdr_JDBC/src/com/itdr/fanshe/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/Itdr_JDBC/src/com/itdr/fanshe/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/fanshe/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/JDdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/ProTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/DGame/DHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/DGame/DHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/DGame/DWeapoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/DGame/DWeapoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Java_Collection/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_Collection/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Java_Collection/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_Collection/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Java_IO/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_IO/Test03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Java_IO/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_IO/Test04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Java_IO/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_xiancheng/Test05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Java_IO/test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_IO/test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Java_IO/test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_IO/test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Java_xiancheng/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_xiancheng/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Java_xiancheng/Test1Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Java_xiancheng/Test1Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Demo_student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/Demo_student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/IncomeTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/IncomeTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/StudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/StudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/Sub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Super.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/Super.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/Test00.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Test03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Test04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Test05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/JDdemo/src/com/itdr/FirstProject/Test/Test_java.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/ProTest/src/com/itdr/FirstProject/Test/Test_java.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/RuiLeGou/RuiLeGou.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/RuiLeGou/RuiLeGou.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/itdr_JavaWeb/itdr_JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/itdr_JavaWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/itdr_JavaWeb/src/com/itdr/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/src/com/itdr/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/itdr_JavaWeb/web/WEB-INF/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/itdr_JavaWeb/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/itdr_JavaWeb/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/itdr_JavaWeb/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/artifacts/itdr_JavaWeb_war_exploded/WEB-INF/classes/com/itdr/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/artifacts/itdr_JavaWeb_war_exploded/WEB-INF/classes/com/itdr/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/artifacts/itdr_JavaWeb_war_exploded/WEB-INF/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/artifacts/itdr_JavaWeb_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/artifacts/itdr_JavaWeb_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/artifacts/itdr_JavaWeb_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/artifacts/itdr_JavaWeb_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/com/itdr/JDBCTest/DataSourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/com/itdr/JDBCTest/DataSourceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/com/itdr/Test/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/com/itdr/Test/Test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/com/itdr/Test/Test_JUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/com/itdr/Test/Test_JUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/com/itdr/Utils/JDBCUtil01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/com/itdr/Utils/JDBCUtil01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/com/itdr/Utils/JDBCUtil02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/com/itdr/Utils/JDBCUtil02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/resource/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/resource/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/src/com/itdr/JDBCTest/DataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/src/com/itdr/JDBCTest/DataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/src/com/itdr/Test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/src/com/itdr/Test/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/src/com/itdr/Test/Test_JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/src/com/itdr/Test/Test_JUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/src/com/itdr/Utils/JDBCUtil01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/src/com/itdr/Utils/JDBCUtil01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/src/com/itdr/Utils/JDBCUtil02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/Itdr_JDBC/src/com/itdr/Utils/JDBCUtil02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test03.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/RuiLeGou/com/itdr/data/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/RuiLeGou/com/itdr/data/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/out/production/itdr_JavaWeb/com/itdr/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/out/production/itdr_JavaWeb/com/itdr/LoginServlet.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/IUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/UserDaoImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1525">
+              <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2139#2140#0" expanded="true" />
+                <element signature="e#2211#2212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/UploadServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1025">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/load.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/GetCookiesServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1925">
+              <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/UserWeb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="jsf" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/add.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/DeleteServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/IUserDaoImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/EncodeFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/utils/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/DoUpdateServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/CookieServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/utils/RowMap.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/utils/JDBCUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/LoadServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/load.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/UpdateServlet2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/GetCookiesServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/upload2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/UpLoadServlet2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/UploadServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/DoLoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/utils/PageBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/utils/ResultData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/service/IUserServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/utils/JDBCUtil2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/utils/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/doaddservlet2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/addservlet2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/AddServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/DoAddServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/UpdateServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/web/UserWeb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/UserDaoImp.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="E:\JRAS\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FMaven Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FMaven Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="463" />
+    <option name="y" value="97" />
+    <option name="width" value="715" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neuedu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neuedu" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neuedu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neuedu" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neuedu" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552191867058" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestMain">
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.utils.TestMain" />
+      <module name="FMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neuedu.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.utils.test" />
+      <module name="FMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neuedu.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="FMaven:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/FMaven" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_52_FMaven" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9936" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="FMaven:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="FMaven:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/FMaven" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_FMaven" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9936" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="FMaven:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd687965-a2cf-451b-ba76-75605a680dae" name="Default Changelist" comment="" />
+      <created>1551755591057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551755591057</updated>
+      <workItem from="1551755595834" duration="11089000" />
+      <workItem from="1551794298721" duration="6167000" />
+      <workItem from="1551830447441" duration="21209000" />
+      <workItem from="1551873740004" duration="7781000" />
+      <workItem from="1551917186931" duration="26096000" />
+      <workItem from="1552002960226" duration="204000" />
+      <workItem from="1552003398000" duration="6009000" />
+      <workItem from="1552094512992" duration="17229000" />
+      <workItem from="1552180390763" duration="5167000" />
+      <workItem from="1552207596798" duration="908000" />
+      <workItem from="1552267484695" duration="5048000" />
+      <workItem from="1552273480633" duration="1895000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="108802000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.63897765" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3290735" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3402556" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5114504" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.636953" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3290735" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.33052278" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/add.xhtml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/utils/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/DeleteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Tomcat 8.0/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/CookieServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/upload2.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/UpLoadServlet2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/DoLoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/EncodeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/utils/ResultData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="73" column="46" lean-forward="true" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
+          <folding>
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#2194#2195#0" expanded="true" />
+            <element signature="e#2224#2225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/utils/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/utils/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/utils/JDBCUtil2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/DoAddServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/AddServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/addservlet2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/UpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/DoUpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/doaddservlet2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/utils/JDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="124" column="47" lean-forward="true" selection-start-line="124" selection-start-column="47" selection-end-line="124" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/IUserServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/utils/RowMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/UserDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/load.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/GetCookiesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/web/UserWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>FMaven:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FMaven</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

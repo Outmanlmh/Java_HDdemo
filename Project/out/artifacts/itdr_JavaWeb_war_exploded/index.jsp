@@ -11,10 +11,13 @@
     <title>JavaWeb_pro</title>
   </head>
   <body>
-  <form action="#" method="post">
-    <input type="text" name="username"><br>
-    <input type="password" name="password"><br>
-    <input type="submit" value="测试http请求"><br>
-</form>
+  <%--<form action="#" method="post">--%>
+    <%--<input type="text" name="username"><br>--%>
+    <%--<input type="password" name="password"><br>--%>
+    <%--<input type="submit" value="测试http请求"><br>--%>
+<%--</form>--%>
+    <%= pageContext.getAttribute("pageContext")%>
+    <%= request.getAttribute("request")%>
+
   </body>
 </html>

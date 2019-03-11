@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RuiLeGou:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/RuiLeGou_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RuiLeGou" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="JUnit4" module-name="RuiLeGou" />
+          <element id="file-copy" path="E:/JRAS/mysql-connector-java-5.1.39-bin.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="RuiLeGou/web/Web" />
+    </root>
+  </artifact>
+</component>

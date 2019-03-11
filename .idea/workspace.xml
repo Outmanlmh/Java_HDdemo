@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3766cd84-4bc2-46f8-a76e-5373aeddfd3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/src/main/java/com/neuedu/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/src/main/java/com/neuedu/dao/IUserDaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/src/main/java/com/neuedu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/src/main/java/com/neuedu/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/src/main/java/com/neuedu/service/IUserServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/src/main/java/com/neuedu/utils/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/src/main/java/com/neuedu/utils/RowMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/src/main/java/com/neuedu/utils/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/src/main/java/com/neuedu/web/UserWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMaven/src/main/webapp/WEB-INF/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/artifacts/RuiLeGou_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Itdr_JDBC/src/com/itdr/Test/Test_pool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Itdr_JDBC/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/Test_erfen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/fanshe/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/fanshe/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/fanshe/tests/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/fanshe/tests/UserInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/fanshe/tests/UserInitImp_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/fanshe/tests/UserInitImp_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/fanshe/user.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/RuiLeGou/web/Userlogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/RuiLeGou/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/src/com/itdr/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/src/com/itdr/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/src/com/itdr/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/src/com/itdr/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/src/com/neuedu/dao/RowMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/src/com/neuedu/dao/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/src/com/neuedu/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/src/com/neuedu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/web/Userlogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/web/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/web/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Itdr_JDBC/resource/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Itdr_JDBC/resource/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Itdr_JDBC/src/com/itdr/JDBCTest/DataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Itdr_JDBC/src/com/itdr/JDBCTest/DataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Itdr_JDBC/src/com/itdr/fanshe/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Itdr_JDBC/src/com/itdr/fanshe/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/fanshe/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/JDdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/ProTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/DGame/DHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/DGame/DHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/DGame/DWeapoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/DGame/DWeapoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Java_Collection/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Java_Collection/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Java_Collection/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Java_Collection/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Java_IO/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Java_IO/Test03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Java_IO/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Java_IO/Test04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Java_IO/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Java_IO/Test05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Java_IO/test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Java_IO/test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Java_IO/test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Java_IO/test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Java_xiancheng/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Java_xiancheng/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Java_xiancheng/Test1Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Java_xiancheng/Test1Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Demo_student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/Demo_student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/IncomeTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/IncomeTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/StudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/StudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/Sub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Super.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/Super.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/Test00.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Test03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Test04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Test05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/JDdemo/src/com/itdr/FirstProject/Test/Test_java.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Test/Test_java.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/RuiLeGou/RuiLeGou.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/RuiLeGou/RuiLeGou.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/itdr_JavaWeb/itdr_JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/itdr_JavaWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/itdr_JavaWeb/src/com/itdr/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/src/com/itdr/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/itdr_JavaWeb/web/WEB-INF/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/itdr_JavaWeb/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/itdr_JavaWeb/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/itdr_JavaWeb/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/artifacts/itdr_JavaWeb_war_exploded/WEB-INF/classes/com/itdr/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/artifacts/itdr_JavaWeb_war_exploded/WEB-INF/classes/com/itdr/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/artifacts/itdr_JavaWeb_war_exploded/WEB-INF/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/artifacts/itdr_JavaWeb_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/artifacts/itdr_JavaWeb_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/artifacts/itdr_JavaWeb_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/artifacts/itdr_JavaWeb_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/com/itdr/JDBCTest/DataSourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/com/itdr/JDBCTest/DataSourceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/com/itdr/Test/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/com/itdr/Test/Test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/com/itdr/Test/Test_JUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/com/itdr/Test/Test_JUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/com/itdr/Utils/JDBCUtil01.class" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/com/itdr/Utils/JDBCUtil01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/com/itdr/Utils/JDBCUtil02.class" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/com/itdr/Utils/JDBCUtil02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/resource/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/resource/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/src/com/itdr/JDBCTest/DataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/src/com/itdr/JDBCTest/DataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/src/com/itdr/Test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/src/com/itdr/Test/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/src/com/itdr/Test/Test_JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/src/com/itdr/Test/Test_JUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/src/com/itdr/Utils/JDBCUtil01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/src/com/itdr/Utils/JDBCUtil01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/src/com/itdr/Utils/JDBCUtil02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/Itdr_JDBC/src/com/itdr/Utils/JDBCUtil02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test03.class" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/JDdemo/com/itdr/FirstProject/Test/Test05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/RuiLeGou/com/itdr/data/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/RuiLeGou/com/itdr/data/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/out/production/itdr_JavaWeb/com/itdr/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Project/out/production/itdr_JavaWeb/com/itdr/LoginServlet.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Java_IO/test01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="E:\JRAS\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="285" />
+    <option name="y" value="93" />
+    <option name="width" value="715" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java_HDdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_HDdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_HDdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_HDdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_HDdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_HDdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="ProTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_HDdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_HDdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="ProTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_HDdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_HDdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="ProTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_HDdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_HDdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="ProTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itdr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_HDdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_HDdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="ProTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itdr" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_HDdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_HDdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="ProTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itdr" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_IO" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551785535626" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Project" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3766cd84-4bc2-46f8-a76e-5373aeddfd3f" name="Default Changelist" comment="" />
+      <created>1551785368362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551785368362</updated>
+      <workItem from="1551785371048" duration="163000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="163000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Project/ProTest/src/com/itdr/FirstProject/Java_IO/test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

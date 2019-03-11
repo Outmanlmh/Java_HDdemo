@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Itdr_JDBC/Itdr_JDBC.iml" filepath="$PROJECT_DIR$/Itdr_JDBC/Itdr_JDBC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JDdemo/JDdemo.iml" filepath="$PROJECT_DIR$/JDdemo/JDdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProTest/ProTest.iml" filepath="$PROJECT_DIR$/ProTest/ProTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/RuiLeGou/RuiLeGou.iml" filepath="$PROJECT_DIR$/RuiLeGou/RuiLeGou.iml" />
       <module fileurl="file://$PROJECT_DIR$/itdr_JavaWeb/itdr_JavaWeb.iml" filepath="$PROJECT_DIR$/itdr_JavaWeb/itdr_JavaWeb.iml" />
     </modules>

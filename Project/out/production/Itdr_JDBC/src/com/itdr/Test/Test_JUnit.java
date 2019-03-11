@@ -60,17 +60,24 @@ public class Test_JUnit {
 
     @Test
     public void test2() throws Exception {
-       Connection conn = JDBCUtil01.getCon();
+       Connection conn = JDBCUtil01.getcon();
        String sql = "insert into user values(null ,'xiaohang','777')";
        PreparedStatement ps = conn.prepareStatement(sql);
         int i = ps.executeUpdate();
         System.out.println("影响了"+i+"行");
-        JDBCUtil01.closeALL(conn,ps);
+        JDBCUtil01.closeAll(conn,ps);
     }
 
     @Test
-    public void test3(){
+    public void test3() throws Exception {
 
+        Connection con  = JDBCUtil01.getcon();
+        //sql语句
+        String sql = "insert into user values(null,'小霞','123465')";
+        //创建对象
+        PreparedStatement preparedStatement = con.prepareStatement(sql);
+        int i = preparedStatement.executeUpdate();
+        JDBCUtil01.closeAll(con,preparedStatement);
     }
 
 
